@@ -1,0 +1,680 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[The A B C with the catechism that is to saie, the instruction ... to be learned of euerie childe.]</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1601</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 31 KB of XML-encoded text transcribed from 16 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2013-12">2013-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A73038</idno>
+            <idno type="STC">STC 20.7</idno>
+            <idno type="STC">ESTC S124489</idno>
+            <idno type="EEBO-CITATION">99899132</idno>
+            <idno type="PROQUEST">99899132</idno>
+            <idno type="VID">150549</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A73038)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 150549)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1953:1)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>[The A B C with the catechism that is to saie, the instruction ... to be learned of euerie childe.]</title>
+               </titleStmt>
+               <extent>[32] p. : ill. (woodcut)  </extent>
+               <publicationStmt>
+                  <publisher>printed by Thomas Purfoot for th' assignes of Richard Day. Cum priuilegio Regiæ Maiestatis. Forbidding all other to print this catechisme,</publisher>
+                  <pubPlace>[London :</pubPlace>
+                  <date>1601]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Title from STC.</note>
+                  <note>Imprint from colophon.</note>
+                  <note>With a woodcut of a nativity scene on A8v.</note>
+                  <note>Signatures: A-B</note>
+                  <note>Reproduction of original in the Peterhouse College Library, Cambridge, England.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Alphabets --  Early works to 1800.</term>
+               <term>Catechisms, English --  Early works to 1800.</term>
+               <term>Conduct of life --  Early works to 1900.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-05</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-05</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-07</date>
+            <label>Greg Schutz</label>Sampled and proofread</change>
+         <change>
+            <date>2012-07</date>
+            <label>Greg Schutz</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2013-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="alphabet">
+            <pb facs="tcp:150549:1" rendition="simple:additions"/>
+            <head>The A. B. C.</head>
+            <p>
+               <g ref="char:cross">✚</g> A a b c d e f g h i k l m n o p q r ſ s t v u w x y z &amp;.</p>
+            <p>
+               <g ref="char:cross">✚</g> A B C D E F G H I K L M N O P Q R S T V W X Y z.</p>
+            <p>
+               <hi>A a b c d e f g h i k m n o p q r ſ s t v u w x y z. &amp;.</hi>
+            </p>
+            <p>
+               <hi>A B C D E F G H I K L M N O P Q R S T V W X Y Z.</hi>
+            </p>
+            <p>
+               <hi>A a b c d e f g h i k l m n o p q r ſ s t v u w x y z. &amp;.</hi>
+            </p>
+            <p>
+               <hi>A B C D E F G H I K L M N O P Q <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> S T V W X Y Z</hi>
+            </p>
+            <p>a<g ref="char:cmbAbbrStroke">̄</g>. e<g ref="char:cmbAbbrStroke">̄</g>. i<g ref="char:cmbAbbrStroke">̄</g>. o<g ref="char:cmbAbbrStroke">̄</g>. u<g ref="char:cmbAbbrStroke">̄</g>. ſt. ſh. y<hi rend="sup">e</hi>. y<hi rend="sup">•</hi>. y<hi rend="sup">•</hi>. <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>.</p>
+            <p>a e i o u ab eb ib ob ub ac ec ic oc uc ad ed id od ud af ef if of uf ag eg ig og ug ak ek ik ok uk al el il ol ul</p>
+            <p>a e i o u an en in on un ap ep ip op up ar er ir or ur as es is os us at et it ot ut au eu iu ou uu ax ex ix ox ux</p>
+            <p>In the name of the Father, and of the, Sonne, and of the holy Ghoſt, Amen</p>
+         </div>
+         <div type="catechism">
+            <pb facs="tcp:150549:2"/>
+            <head>The vow and promiſe made in Baptiſme.</head>
+            <sp>
+               <speaker>Maiſter.</speaker>
+               <p>
+                  <seg rend="decorInit">W</seg>Hat is your name?</p>
+            </sp>
+            <sp>
+               <speaker>Scholler.</speaker>
+               <p>N. or M.</p>
+            </sp>
+            <sp>
+               <speaker>M.</speaker>
+               <p>Who gaue you this name?</p>
+            </sp>
+            <sp>
+               <speaker>S.</speaker>
+               <p>My Godfathers, and Godmothers in my Baptiſme, wherein I was mad<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> a member of Chriſt; the child of God, <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> an inheritor of the kingdome of Heauen</p>
+            </sp>
+            <sp>
+               <speaker>M.</speaker>
+               <p>What did your Godfathers, and Godm<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:EOLunhyphen"/>thers then for you?</p>
+            </sp>
+            <sp>
+               <speaker>S.</speaker>
+               <p>They did promiſe and vowe thr<gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> things in my name.</p>
+               <p>Firſt, that I ſhould forſake the Diue<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> and all his works, and pomps, the va<g ref="char:EOLunhyphen"/>nities of the wicked World, and all t<gap reason="illegible" resp="#UOM" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap> ſinfull luſts of the fleſh.</p>
+               <p>Secondly, that I ſhould beleeue the Articles of the chriſtian faith.</p>
+               <p>And thirdly, that I ſhould keepe <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#UOM" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap>ly will and commaundements <gap reason="illegible" resp="#UOM" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>
+                  <pb facs="tcp:150549:2"/> walkein the ſame all the daies of my life.</p>
+            </sp>
+            <sp>
+               <speaker>M.</speaker>
+               <p>Doſt thou not thinke that thou art bound to beléeue, and to doe as they haue pro<g ref="char:EOLhyphen"/>miſed for thée?</p>
+            </sp>
+            <sp>
+               <speaker>S.</speaker>
+               <p>Yes verely. And by Gods helpe ſo I will. And I hartely thanke our heauen<g ref="char:EOLhyphen"/>ly Father, that he hath called me to this ſtate of ſaluation, through Ieſus Chriſt our Sauiour. And I pray God to giue me his grace that I may continue in the ſame vnto my liues end.</p>
+            </sp>
+            <sp>
+               <speaker>M.</speaker>
+               <p>Rehearſe the Articles of thy Beléefe.</p>
+            </sp>
+            <sp>
+               <speaker>S.</speaker>
+               <p>I Beleeue in God, the Father al<g ref="char:EOLhyphen"/>mighty, maker of Heauen and earth. And in Ieſus Chriſt his onely Son our Lord, which was con<g ref="char:EOLhyphen"/>cei<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ed by the holie Ghoſt. Borne of the Virgin Marie. Suffered vnder Ponce P<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>late. Was crucified, dead, and buried. He deſcended into Hell, the third day he roſe agayne from the dead. He aſcended into Heauen, &amp; ſitteth at the right hand of God the father almighty. From thence he ſhall come to iudge the quicke and the
+<pb facs="tcp:150549:3"/> dead. I beleeue in the holy Ghoſt. The holy Catholike Church. The Commu<g ref="char:EOLhyphen"/>nion of Saints. The forgiuenes of ſins, The reſurrection of the body. And the life euerlaſting, Amen.</p>
+            </sp>
+            <sp>
+               <speaker>M.</speaker>
+               <p>What doeſt thou chiefly learne in theſe Ar<g ref="char:EOLhyphen"/>ticles of thy beleefe?</p>
+            </sp>
+            <sp>
+               <speaker>S.</speaker>
+               <p>Firſt, I learne to beleeue in God the Father, who hath made mee and all the World.</p>
+               <p>Secondly, in God the Sonne, who hath redeemed me and all mankinde.</p>
+               <p>Thirdly, in God the holy Ghoſt, who ſanctifieth mee and all the elect people of GOD.</p>
+            </sp>
+            <sp>
+               <speaker>M.</speaker>
+               <p>You ſaid that your Godfathers &amp; Godmo<g ref="char:EOLhyphen"/>thers did promiſe for you, that you ſhould keepe Gods commaundements: tell mee how many there be?</p>
+            </sp>
+            <sp>
+               <speaker>S.</speaker>
+               <p>Tenne.</p>
+            </sp>
+            <sp>
+               <speaker>M.</speaker>
+               <p>Which be they?</p>
+            </sp>
+            <sp>
+               <p>THe ſame which God ſpake in the xx. Chapter of <hi>Exodus,</hi> ſaying, I am the Lord thy GOD, which haue brought thee out of the Land of E<g ref="char:EOLhyphen"/>gipt,
+<pb facs="tcp:150549:3"/> out of the houſe of bondage.</p>
+               <p n="1">i. Thou ſhalt haue none other Gods but mee.</p>
+               <q>Lord haue mercie vpon vs and incline our hearts to keepe this Lawe.</q>
+               <p n="2">ii. Thou ſhalt not make to thy ſelfe any grauen Image, nor the likeneſſe of any thing that is in Heauen aboue, nor in the earth beneath, nor in the water vnder the earth. Thou ſhalt not bow down to the<g ref="char:cmbAbbrStroke">̄</g>, nor worſhip the<g ref="char:cmbAbbrStroke">̄</g>. For I y<hi rend="sup">e</hi> Lord thy God am a iealous God, &amp; viſite the ſins of the fathers vpon their children, vnto y<hi rend="sup">e</hi> third &amp; fourth generatio<g ref="char:cmbAbbrStroke">̄</g> of them that hate me, &amp; ſhew mercie vnto thouſands of them y<hi rend="sup">e</hi> loue me, &amp; keepe my Commandements.</p>
+               <q>Lord haue mercie vpon vs, &amp;c.</q>
+               <p n="3">iii. Thou ſhalt not take the name of the Lord thy God in vaine, for the Lord will not holde him guiltleſſe that taketh his name in vaine.</p>
+               <q>Lord haue mercie vpon vs, &amp;c.</q>
+               <p n="4">iiii. Remember that thou keepe holy the Saboath day, Six daies ſhalt thou la<g ref="char:EOLhyphen"/>bour &amp; do all that thou haſt to doe. But y<hi rend="sup">e</hi>
+                  <pb facs="tcp:150549:4"/> ſeuenth day is the Saboath of the Lord thy God. In it thou ſhalt do no manner of worke, thou &amp; thy ſon, &amp; thy daughter, thy man ſeruant, &amp; thy maid ſeruant, thy cattell &amp; the ſtranger that is within thy gates. For in ſixe dayes the Lord made Heaue<g ref="char:cmbAbbrStroke">̄</g> &amp; Earth, the Sea, &amp; all y<hi rend="sup">t</hi> in them is, &amp; reſted the ſeuenth day: wherefore y<hi rend="sup">e</hi> lord bleſſed y<hi rend="sup">e</hi> ſeuenth day, &amp; hallowed it.</p>
+               <q>Lord haue mercie vpon vs, &amp;c.</q>
+               <p n="5">v. Honor thy Father and thy Mother, that thy dayes may be long in the land, which the Lord thy God giueth thee.</p>
+               <q>Lord haue mercie vpon vs, &amp;c.</q>
+               <p n="6">vi. Thou ſhalt doe no murder.</p>
+               <q>Lord haue mercie vpon vs, &amp;c.</q>
+               <p n="7">vii. Thou ſhalt not commit adulterie.</p>
+               <q>Lord haue mercie vpon vs, &amp;c.</q>
+               <p n="8">viii. Thou ſhalt not ſteale.</p>
+               <q>Lord haue mercie vpon vs, &amp;c.</q>
+               <p n="9">ix. Thou ſhalt not beare falſe witneſſe againſt thy Neighbour.</p>
+               <q>Lord haue mercie vpon vs, &amp;c.</q>
+               <p n="10">x. Thou ſhalt not couet thy Neighbors houſe. Thou ſhalt not couet thy Neigh<g ref="char:EOLhyphen"/>bours
+<pb facs="tcp:150549:4"/> Wife, nor his Seruant, nor his Maid, nor his Oxe, nor his Aſſe, nor a<g ref="char:EOLhyphen"/>ny thing that is his.</p>
+               <q>Lord haue mercie vpon vs, &amp; write all theſe thy lawes in our hearts we beſéech thee.</q>
+            </sp>
+            <sp>
+               <speaker>M.</speaker>
+               <p>What doeſt thou chiefly learne by theſe Commaundements?</p>
+            </sp>
+            <sp>
+               <speaker>S.</speaker>
+               <p>I learne two things. My duty toward god. And my duty toward my neighbor.</p>
+            </sp>
+            <sp>
+               <speaker>M.</speaker>
+               <p>What is thy dutie towards GOD?</p>
+            </sp>
+            <sp>
+               <speaker>S.</speaker>
+               <p>My duty towards God, is to beleeue in him, to feare him, &amp; to loue him, with all my heart, with all my mind, with all my ſoule, and with all my ſtrength. To worſhip him, to giue him thankes, to put my whole truſt in him: to call vpon him: to honour his holy name &amp; his word: and to ſerue him truly all the days of my life.</p>
+            </sp>
+            <sp>
+               <speaker>M.</speaker>
+               <p>What is thy dutie towards thy Neighbor?</p>
+            </sp>
+            <sp>
+               <speaker>S.</speaker>
+               <p>My dutie towards my Neighbour, is to loue him as my ſelfe. And to doe to all men as I would they ſhould do vnto me. To loue, honor, &amp; ſuccor my Father and Mother. To honor, &amp; obey the Queene, &amp; her Miniſters. To ſubmit my ſelfe to
+<pb facs="tcp:150549:5"/> all my gouernours, teachers, ſpirituall Paſtors, &amp; Miniſters. To order my ſelfe lowly, and reuerently to all my betters. To hurt no body by word nor deed. To bee true and iuſt in all my dealing. To beare no malice nor hatred in my heart. To keepe my ha<g ref="char:cmbAbbrStroke">̄</g>ds from picking &amp; ſtea<g ref="char:EOLhyphen"/>ling. And my tongue from euil ſpeaking, lying &amp; ſlandering, to keepe my body in temperance, ſoberneſſe, &amp; chaſtitie. Not to couet nor deſire other mens goods: but learne &amp; labour truly to get my owne li<g ref="char:EOLhyphen"/>uing, &amp; to do my duty in that ſtate of life, vnto which it ſhal pleaſe God to call me.</p>
+            </sp>
+            <sp>
+               <speaker>M.</speaker>
+               <p>My good Child know this, that thou art not able to doe theſe things of thy ſelfe, nor to walke in the commaundements of God, &amp; to ſerue him without his eſpeciall grace, which thou muſt learne at all times to call for by diligent prayer: let me heare there<g ref="char:EOLhyphen"/>fore if thou canſt ſay the Lords prayer.</p>
+               <p>
+                  <seg rend="decorInit">O</seg>Vr Father which art in Heauen, hallowed be thy name. Thy king<g ref="char:EOLhyphen"/>dome come. Thy will be done in
+<pb facs="tcp:150549:5"/> earth, as it is in Heauen. Giue vs this day our dayly bread. And forgiue vs our treſpaſſes, as we forgiue them that treſ<g ref="char:EOLhyphen"/>pas againſt vs. And leade vs not into temptation. But deliuer vs from euill.</p>
+               <q>For thine is the kingdome, the power and the glory for euer and euer, Amen.</q>
+            </sp>
+            <sp>
+               <speaker>M.</speaker>
+               <p>What deſireſt thou of God in this prayer?</p>
+            </sp>
+            <sp>
+               <speaker>S.</speaker>
+               <p>I deſire my Lord God our heaue<g ref="char:cmbAbbrStroke">̄</g>ly fa<g ref="char:EOLhyphen"/>ther, who is the giuer of all goodnes, to ſend his grace vnto me and vnto all peo<g ref="char:EOLhyphen"/>ple. That we may worſhip him, ſerue him, and obey him as wee ought to doe. And I pray vnto God, that he will ſend vs al things that be needful both for our ſoules and bodies. And that he will bee merciful vnto vs, &amp; forgiue vs our ſinnes. And that it will pleaſe him to ſaue &amp; de<g ref="char:EOLhyphen"/>fend vs in all dangers ghoſtly &amp; bodily. And that he will keepe vs from all ſinne &amp; wickednes, &amp; from our ghoſtly enemy, and from euerlaſting death. And this I truſt he will doe of his mercy &amp; goodnes, through our Lord Ieſus Chriſt, &amp; there<g ref="char:EOLhyphen"/>fore I ſay, Amen. So be it.</p>
+            </sp>
+            <sp>
+               <pb facs="tcp:150549:6"/>
+               <speaker>Maiſt.</speaker>
+               <p>I would my good Child heare of thée yet more largely the ſpeciall duties of certain perſons: and firſt of thoſe duties that doe ſtand chiefly in obedience, and vertue, (by reaſon of thine age and condition) ſpecial<g ref="char:EOLhyphen"/>ly appertaining vnto thee. Tell me there<g ref="char:EOLhyphen"/>fore firſt, what is the dutie of Subiects towards their Prince?</p>
+            </sp>
+            <sp>
+               <speaker>Scholler.</speaker>
+               <p>The holy Apoſtles ſaint Paule &amp; ſaint Peter declaring that the higher powers are ordained of god, &amp; that who<g ref="char:EOLhyphen"/>ſoeuer do reſiſt the power, reſiſt the ordi<g ref="char:EOLhyphen"/>nance of God, and doe purchaſe to them<g ref="char:EOLhyphen"/>ſelues damnation: do ſtraightly charge all Subiects to feare, loue, and to honor their Prince. Humbly to obay all their Princes Lawes, Commaundements, &amp; Miniſters or Officers. And that not for feare onely, but for conſcience ſake alſo. To pay all Tributes, &amp; Subſidies due to their Prince. And with al their goods &amp; bodie, faithfully to ſerue their Prince. Hartely to pray to God for their Prince, that he may continue, and encreaſe in all goodnes &amp; godlines, Or for his amend<g ref="char:EOLhyphen"/>ment
+<pb facs="tcp:150549:6"/> if it chance that he be euill. And in all things to bee themſelues good Sub<g ref="char:EOLhyphen"/>iects, that they may the better deſerue to haue a good Prince.</p>
+            </sp>
+            <sp>
+               <speaker>M.</speaker>
+               <p>Now tell mée the duties of Children to<g ref="char:EOLhyphen"/>wardes their Parents.</p>
+            </sp>
+            <sp>
+               <speaker>S.</speaker>
+               <p>The holy Scriptures doe teach Chil<g ref="char:EOLhyphen"/>dren to obey their Parents, and to ſerue them, to feare, loue, honor, and reuerence them, not onely in word and deed, but in their hearts and minds alſo. To follow their good precepts and examples of life. And patiently to take correction at their hands. And to make continuall and har<g ref="char:EOLhyphen"/>tie prayers to God for them. And to re<g ref="char:EOLhyphen"/>lieue &amp; nouriſh their Parents in caſe they ſhall fall into pouertie or decay. And in all points (by ſhewing themſelues obedi<g ref="char:EOLhyphen"/>ent and good children) to mooue their pa<g ref="char:EOLhyphen"/>rents to bee louing and good to them.</p>
+            </sp>
+            <sp>
+               <speaker>M.</speaker>
+               <p>I would now haue thée to ſhew mee what thou haſt learned concerning the dutie of ſpirituall Children, as Pariſhioners and Hearers, towards their Paſtors &amp; Prea<g ref="char:EOLhyphen"/>chers, as their ſpirituall Fathers.</p>
+            </sp>
+            <sp>
+               <pb facs="tcp:150549:7"/>
+               <speaker>S.</speaker>
+               <p>Pariſhioners and Hearers are com<g ref="char:EOLunhyphen"/>maunded in the word of GOD, to giue double honor vnto their Paſtors, &amp; prea<g ref="char:EOLunhyphen"/>chers, that is, aſwell to reuerence and o<g ref="char:EOLunhyphen"/>bey them, as alſo to aſſiſt and ayde them in word &amp; deed. And they ought to take great care, that the good ſeede of Gods word by them ſowne, through the lacke of their good heed taking, and following of the ſame, do not periſh, as caſt into ſto<g ref="char:EOLhyphen"/>nie and barren grounds.</p>
+            </sp>
+            <sp>
+               <speaker>M.</speaker>
+               <p>Declare now the dutie of Seruants.</p>
+            </sp>
+            <sp>
+               <speaker>S.</speaker>
+               <p>Seruants are thus taught their du<g ref="char:EOLhyphen"/>ties to their Maſters in the holy Scrip<g ref="char:EOLhyphen"/>tures: ſeruants obey them that are your bodily Maiſters in al things with feare &amp; trembling, in ſinglenes of your hart as vnto Chriſt, not with eye ſeruice as men pleaſers, but as the ſeruants of Chriſt, &amp; whatſoeuer you doe, doe it as the will of God, hartily &amp; with good wil, as ſeruing the Lord and not men: Knowing that of the Lord ye ſhall receiue y<hi rend="sup">e</hi> reward of in<g ref="char:EOLhyphen"/>heritance, for ye ſerue the Lord Chriſt.</p>
+            </sp>
+            <sp>
+               <pb facs="tcp:150549:7"/>
+               <speaker>M.</speaker>
+               <p>Now my good Child, though thou by age haſt as yet more néed of thy precepts of obedi<g ref="char:EOLhyphen"/>ence, then of gouernement, yet becauſe God may &amp; will I truſt make thée a good old man, I would not haue thée ignorant how to be<g ref="char:EOLhyphen"/>haue thy ſelfe in any eſtate of life, whereunto God may call thée hereafter. Wherefore I would haue thée to tell me, what on the other part thou haſt learned touching the duties of Parents, Maiſters, or Houſhoulders, &amp; alſo of Huſbands &amp; Wiues: and firſt what is the dutie of Parents toward their Children?</p>
+            </sp>
+            <sp>
+               <speaker>S.</speaker>
+               <p>The dutie of Parents towards their children (as the ſame Apoſtle S. Paule teacheth) is to bring them vp euen from the cradle, in the feare and nurture of the Lord, in ſhamefaſtneſſe, hatred of vice, and loue of all vertue. And to be them<g ref="char:EOLhyphen"/>ſelues vnto their children, examples of all godlines, and vertuouſnes. And they ought to ſee their children kept fro<g ref="char:cmbAbbrStroke">̄</g> idle<g ref="char:EOLhyphen"/>neſſe, the Mother of all miſchiefes, and brought vp either in learning, or in ſome good ſcience or Art, whereby they may get their liuings with honſtye &amp; truth, when they doe come to age.</p>
+            </sp>
+            <sp>
+               <pb facs="tcp:150549:8"/>
+               <speaker>M.</speaker>
+               <p>Procéed now to the duties of Maiſters and Houſhoulders.</p>
+            </sp>
+            <sp>
+               <speaker>S.</speaker>
+               <p>I haue learned that Maiſters and Houſhoulders, as they are become in the ſtead of Parents to their Seruants and families, ſo ought they to refraine them from idleneſſe, and by diligent inſtructi<g ref="char:EOLhyphen"/>on and good example, to bring vp their ſeruants and houſholdes in honeſt and comely manners, and in all vertue. And they ought to inſtruct their Apprentices in the knowledge of their occupatio<g ref="char:cmbAbbrStroke">̄</g>s, e<g ref="char:EOLhyphen"/>uen as Parents would teach their own Children, without all fraude, delaying, or concealing: and when correction is neceſſarie, they ought to giue it the<g ref="char:cmbAbbrStroke">̄</g> with ſuch diſcretion, pitie, and deſire of their amendment, as louing Parents vſe to deale with their deare children, remem<g ref="char:EOLhyphen"/>bring alway that they haue alſo a Mai<g ref="char:EOLhyphen"/>ſter in Heauen.</p>
+            </sp>
+            <sp>
+               <speaker>M.</speaker>
+               <p>Tell me nowe the dutie of Huſbands to<g ref="char:EOLhyphen"/>warde their Wiues.</p>
+            </sp>
+            <sp>
+               <speaker>S.</speaker>
+               <p>I haue learned that the holy Apoſtle
+<pb facs="tcp:150549:8"/> Saint Peter, (who was himſelfe a ma<g ref="char:EOLhyphen"/>ried man) and S. Paule alſo, doe teach maried men to liue with their wiues diſ<g ref="char:EOLhyphen"/>creetlie, according vnto knowledge and without all bitterneſſe. And to loue, che<g ref="char:EOLhyphen"/>riſh, and to nouriſh their wiues, euen as their owne bodies. Yea that Huſbands ought to loue their wiues euen as Chriſt loued the Church, and gaue himſelfe for it to ſanctifie it.</p>
+            </sp>
+            <sp>
+               <speaker>M.</speaker>
+               <p>Shew me now how Wiues ought to be<g ref="char:EOLhyphen"/>haue the<g ref="char:cmbAbbrStroke">̄</g>ſelues towards their Huſbands.</p>
+            </sp>
+            <sp>
+               <speaker>S.</speaker>
+               <p>I haue learned alſo, that the ſame holy Apoſtles S. Paule and S. Peter do teach that wiues ought to reuerence their Huſbands, and that they ſhould ſubmit themſelues, and be obedient vnto their owne huſbands, as vnto the Lord: for the Huſband is the Wiues head, e<g ref="char:EOLhyphen"/>uen as Chriſt is the head of the Church. Therefore as the Church or Congrega<g ref="char:EOLhyphen"/>tion is ſubiect vnto Chriſt: ſo likewiſe the Wiues alſo ſhould bee in ſubiection vnto their own Huſbands in all things
+<pb facs="tcp:150549:9"/> as is conuenient in the Lord, euen as <hi>Sa<g ref="char:EOLhyphen"/>ra</hi> obayed <hi>Abraham</hi> &amp; called him Lord. And Wiues are forbidden in the holie ſcriptures to weare gorgious or ſump<g ref="char:EOLhyphen"/>tuous apparell, or broydred haire trim<g ref="char:EOLhyphen"/>med with gold. But that after the ex<g ref="char:EOLhyphen"/>ample of holy wome<g ref="char:cmbAbbrStroke">̄</g> that truſted in god, they ſhould be ſober in outward apparell and be decked inwardly with vertues of their mindes, as with gentlenes, meeke<g ref="char:EOLhyphen"/>nes, quietnes, and chaſtitie, which are moſt precious things in the ſight of god.</p>
+            </sp>
+            <sp>
+               <speaker>M.</speaker>
+               <p>How many Sacraments hath Chriſt or<g ref="char:EOLhyphen"/>dayned in his Church?</p>
+            </sp>
+            <sp>
+               <speaker>S.</speaker>
+               <p>Two. Baptiſme, and the Supper of the Lord.</p>
+            </sp>
+            <sp>
+               <speaker>M.</speaker>
+               <p>What meaneſt y<hi rend="sup">u</hi> by this word Sacrament?</p>
+            </sp>
+            <sp>
+               <speaker>S.</speaker>
+               <p>I meane an outward and viſible ſigne, repreſenting an inward and inui<g ref="char:EOLhyphen"/>ſible ſpirituall grace, ordayned by Chriſt himſelfe, to teſtifie Gods good will and bountifulnes towards vs, through the ſame Chriſt our Sauiour, by the which Gods promiſes, touching forgiuenes of
+<pb facs="tcp:150549:9"/> ſinnes, and eternall ſaluation, giuen through Chriſt, are as it were ſealed, &amp; the truth of them is more certainely con<g ref="char:EOLhyphen"/>firmed in our hearts.</p>
+            </sp>
+            <sp>
+               <speaker>M.</speaker>
+               <p>How many parts then bée there in a Sa<g ref="char:EOLhyphen"/>crament?</p>
+            </sp>
+            <sp>
+               <speaker>S.</speaker>
+               <p>Two: the outward viſible ſigne, and the inward ſpirituall grace.</p>
+            </sp>
+            <sp>
+               <speaker>M.</speaker>
+               <p>What is the outward ſigne or forme in Baptiſme?</p>
+            </sp>
+            <sp>
+               <speaker>S.</speaker>
+               <p>Water, wherein the perſon Baptiſed is dipped or ſprinkled with it, in the name of the Father, the Sonne, and the holy Ghoſt.</p>
+            </sp>
+            <sp>
+               <speaker>M.</speaker>
+               <p>What is the ſecret and ſpirituall grace?</p>
+            </sp>
+            <sp>
+               <speaker>S.</speaker>
+               <p>Forgiuenes of ſinnes, &amp; regeneration or new birth. Both which we haue by y<hi rend="sup">e</hi> death &amp; reſurrectio<g ref="char:cmbAbbrStroke">̄</g> of Chriſt, &amp; therof we haue a pledge &amp; ſeale in this Sacrame<g ref="char:cmbAbbrStroke">̄</g>t.</p>
+            </sp>
+            <sp>
+               <speaker>M.</speaker>
+               <p>Shew mée the effect of Baptiſme yet more plainely.</p>
+            </sp>
+            <sp>
+               <speaker>S.</speaker>
+               <p>Where by nature wee are none of Gods Church or houſhould, but through
+<pb facs="tcp:150549:10"/> ſin are the children of wrath, moſt wor<g ref="char:EOLhyphen"/>thy of eternall damnation: wee are by baptiſme receiued into the Church, and aſſured that we are now the Children of God, ioyned and grafted into the body of Chriſt, and become his members, and doe grow into one body with him.</p>
+            </sp>
+            <sp>
+               <speaker>M.</speaker>
+               <p>What is required of perſons to be baptized?</p>
+            </sp>
+            <sp>
+               <speaker>S.</speaker>
+               <p>Faith and Repentance.</p>
+            </sp>
+            <sp>
+               <speaker>M.</speaker>
+               <p>Declare this more largely.</p>
+            </sp>
+            <sp>
+               <speaker>S.</speaker>
+               <p>Firſt, wee muſt earneſtly repent vs of our former wicked life, and beleeue aſſu<g ref="char:EOLhyphen"/>redly that we are clenſed fro<g ref="char:cmbAbbrStroke">̄</g> our ſinnes by the blood of Chriſt, and ſo made ac<g ref="char:EOLhyphen"/>ceptable to God, and that his holy ſpirit dwelleth in vs. And according to our profeſſion &amp; promiſe made in baptiſme, wee ought to endeauour our ſelues to mortifie our fleſh, and by our godly life to ſhew that we haue put on Chriſt, and haue his ſpirit giuen vs.</p>
+            </sp>
+            <sp>
+               <speaker>M.</speaker>
+               <p>Why then are Infants baptized, when by reaſon of their tender age, they can<g ref="char:EOLhyphen"/>not yet performe theſe things?</p>
+            </sp>
+            <sp>
+               <speaker>S.</speaker>
+               <p>Becauſe they belong to GODS
+<pb facs="tcp:150549:10"/> Church, and Gods bleſſing and promiſe made to the Church by Chriſt, in the faith of the which Chriſt our Sauiour they are baptized, pertayneth vnto the<g ref="char:cmbAbbrStroke">̄</g>. Which when they come to age, they muſt themſelues learne, beleeue, and acknow<g ref="char:EOLhyphen"/>ledge, and endeauour in their liues to ex<g ref="char:EOLhyphen"/>preſſe the dutie at their baptiſme profeſ<g ref="char:EOLhyphen"/>ſed and promiſed.</p>
+            </sp>
+            <sp>
+               <speaker>M.</speaker>
+               <p>What is the order of the Lords Supper?</p>
+            </sp>
+            <sp>
+               <speaker>S.</speaker>
+               <p>The ſame which the Lord Chriſt did inſtitute, who in the ſame night that he was betraied, tooke bread, and when he had giuen thankes, he brake it and gaue it to his diſciples, ſaying: Take, eate, this is my body which is giuen for you, doe this in remembrance of mee. Like<g ref="char:EOLhyphen"/>wiſe after Supper, he tooke the cuppe, and when he had giuen thanks, he gaue it to them ſaying: Drinke ye all of this, for this is my blood of the newe Teſta<g ref="char:EOLhyphen"/>ment, which is ſhed for you and for ma<g ref="char:EOLhyphen"/>ny, for remiſſion of ſinnes: do this as oft as ye ſhall drinke it, in remembrance of
+<pb facs="tcp:150549:11"/> me. This forme and order we ought to hold, truly to keepe, and to celebrate de<g ref="char:EOLhyphen"/>uoutly till he come againe.</p>
+            </sp>
+            <sp>
+               <speaker>M.</speaker>
+               <p>To what vſe?</p>
+            </sp>
+            <sp>
+               <speaker>S.</speaker>
+               <p>For a continuall thankefull remem<g ref="char:EOLhyphen"/>brance of his death, and the benefites that wee receiue thereby. And that as in baptiſme we are borne againe, ſo with the Lords Supper we are alwaies fed and ſuſtained to ſpirituall &amp; euerlaſting life. And therefore it is ynough to bee once baptiſed, as to be once borne: but as we need oft to be fed, ſo is the Lords Supper oft to be receiued.</p>
+            </sp>
+            <sp>
+               <speaker>M.</speaker>
+               <p>What are the parts and matter of this Sa<g ref="char:EOLhyphen"/>crament?</p>
+            </sp>
+            <sp>
+               <speaker>S.</speaker>
+               <p>The matter and parts hereof, euen as of baptiſme, are of two ſorts: the one is earthly and ſenſible, the other is heauen<g ref="char:EOLhyphen"/>ly &amp; remoued from all outward ſenſes.</p>
+            </sp>
+            <sp>
+               <speaker>M.</speaker>
+               <p>What is the earthly and ſenſible part?</p>
+            </sp>
+            <sp>
+               <speaker>S.</speaker>
+               <p>Bread and Wine: both which mat<g ref="char:EOLhyphen"/>ters, the Lord hath expreſly commanded all to receiue.</p>
+            </sp>
+            <sp>
+               <speaker>M.</speaker>
+               <p>What is the heauenly part and matter
+<pb facs="tcp:150549:11"/> remooued from all outward ſences?</p>
+            </sp>
+            <sp>
+               <speaker>S.</speaker>
+               <p>The body &amp; blod of Chriſt, which are giuen, taken, eaten, and drunken of the faithfull in the Lords ſupper, only after a heauenly and ſpirituall maner, but yet verely &amp; indeed. Inſomuch that as the Bread nouriſheth our bodies: ſo Chriſts body hath moſt ſinguler force ſpiritually by faith to feed our ſoules. And as with wine mens hearts are cheered, and their ſtrengths confirmed, ſo with his blood our ſoules are refreſhed through faith, which is the meane whereby the body &amp; blood of Chriſt are receiued in the Sup<g ref="char:EOLhyphen"/>per. And that Chriſt as ſurely maketh them that beleeue in him, partakers of his body and blood, as they ſurely know that they haue receiued the bread &amp; wine with their mouths and ſtomacks.</p>
+            </sp>
+            <sp>
+               <speaker>M.</speaker>
+               <p>Is then the bread and wine changed into the ſubſtance of the body &amp; blood of Chriſt?</p>
+            </sp>
+            <sp>
+               <speaker>S.</speaker>
+               <p>No. For that were to deſtroy the na<g ref="char:EOLhyphen"/>ture of a ſacrament, which muſt conſiſt both of heauenly and earthly matter.</p>
+            </sp>
+            <sp>
+               <speaker>M.</speaker>
+               <p>Was this Supper ordayned of Chriſt to be
+<pb facs="tcp:150549:12"/> offered as a Sacrifice to God the Fathe<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> for remiſſion of ſinnes?</p>
+            </sp>
+            <sp>
+               <speaker>S.</speaker>
+               <p>No. For the burden of ſin, and dam<g ref="char:EOLhyphen"/>nation due vnto it, is ſo great &amp; horrible that the ſonne of God Ieſus Chriſt one<g ref="char:EOLhyphen"/>ly was able to offer ſacrifice for our deli<g ref="char:EOLhyphen"/>uerance fro<g ref="char:cmbAbbrStroke">̄</g> the ſame. When Chriſt ther<g ref="char:EOLhyphen"/>fore our Sauiour died vpon the croſſe, he once for all fullie made that euerlaſting ſacrifice acceptable to God the Father, for the propitiation of ſinne, waſhing vs from the ſame in his blood for our ſalua<g ref="char:EOLhyphen"/>tion for euer: &amp; hath left nothing for vs to do, but firmely to fix our faith in him, and thankefully to take the vſe and be<g ref="char:EOLhyphen"/>nefite of that eternall ſacrifice which we chiefly doe in the Lordes Supper.</p>
+            </sp>
+            <sp>
+               <speaker>M.</speaker>
+               <p>What is our dutie to doe, that wée may come rightly to the Lords Supper.</p>
+            </sp>
+            <sp>
+               <speaker>S.</speaker>
+               <p>To examine our ſelues whether wee be true members of Chriſt.</p>
+            </sp>
+            <sp>
+               <speaker>M.</speaker>
+               <p>By what token ſhall wée know this?</p>
+            </sp>
+            <sp>
+               <speaker>S.</speaker>
+               <p>Firſt, if wee hartily repent vs of our ſinnes. Next, if we ſtay our ſelues and reſt in a ſure hope of Gods mercie tho<g ref="char:EOLhyphen"/>row
+<pb facs="tcp:150549:12"/> Chriſt, with a thankefull remem<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rance of our redemptio<g ref="char:cmbAbbrStroke">̄</g> purchaſed by his <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>eath. Moreouer, if we conceiue an ear<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>eſt minde &amp; determinate purpoſe to lead <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ur life godly hereafter. Finally, if ſeing <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> the Lords Supper is conteyned a to<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>en of friendſhip &amp; loue among men, wee <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>eare brotherly loue to our neighbours, <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hat is, to all men, without any euill will <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>r hatred.</p>
+            </sp>
+            <trailer>The end of the Catechiſme.</trailer>
+         </div>
+         <div type="prayers">
+            <head>¶ Godly Graces to be ſaid before or after meate</head>
+            <div n="before meate" type="prayer">
+               <head>Grace before meate.</head>
+               <p>THe eies of all things do looke vp &amp; truſt in thée O Lord, thou giueſt thy meat in due ſeaſon, thou openeſt thy hand, and filleſt with thy bleſſing euery liuing thing, Good Lord <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>leſſe vs &amp; all thy gifts which wée receiue of thy <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ounteous liberality, through Chriſt our Lord, <hi>Amen.</hi>
+               </p>
+            </div>
+            <div n="after meate" type="prayer">
+               <head>✿ Our Father which art. &amp;c. Grace after meate.</head>
+               <p>THe King of eternall glorie make vs parta<g ref="char:EOLhyphen"/>kers of his heauenly table, <hi>Amen.</hi>
+               </p>
+               <p>God ſaue his Church, our Quéen, &amp; the Realme, and ſend vs peace in Chriſt our Lord, <hi>Amen.</hi>
+               </p>
+            </div>
+            <div n="before meate" type="prayer">
+               <pb facs="tcp:150549:13"/>
+               <head>✿ Grace before meat.</head>
+               <p>VVHether yée eate or drinke (ſayth Sain<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Paule) or whatſoeuer yée doe elſe, let a<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> be done to the praiſe and glorie of God, <hi>Amen.</hi>
+               </p>
+            </div>
+            <div n="after meate" type="prayer">
+               <head>Grace after meat.</head>
+               <p>GLorie, honor, and praiſe be giuen to thée O Lord, which haſt fed vs fro<g ref="char:cmbAbbrStroke">̄</g> our tender age &amp; giueſt ſuſtenance to euery liuing thing: reple<g ref="char:EOLunhyphen"/>niſh our hearts with ioy &amp; gladnes, that wée al<g ref="char:EOLhyphen"/>way hauing ſufficient, may be rich &amp; plentiful in all good works, through our Lord Ieſus Chriſt So be it. God ſaue his Church our Quéene, &amp;c.</p>
+            </div>
+            <div n="before meate" type="prayer">
+               <head>Grace before meate.</head>
+               <p>GRaunt, O moſt mercifull Father, that hun<g ref="char:EOLhyphen"/>ger and thirſt being ſatisfied with moderate vſe of theſe thy gifts ſanctified w<hi rend="sup">t</hi> thy holy word, both our bodies and minds may ſo be refreſhed, that we may be made more apt &amp; able to doe good works, to the glorie of thy holy name, <hi>Amen.</hi>
+               </p>
+            </div>
+            <div n="after meate" type="prayer">
+               <head>Grace after meate.</head>
+               <p>VVE yéeld our hartie thanks vnto thée moſt louing father, by whoſe bountifull good<g ref="char:EOLhyphen"/>nes our bodies are continually refreſhed: beſée<g ref="char:EOLhyphen"/>ching thée to refreſh our ſoules alſo with thy hea<g ref="char:EOLhyphen"/>uenly grace, and with thy liuely bread of thy moſt holy woord, and true faith in the ſame, and with certaine hope of life euerlaſting: through our Sauiour Ieſus Chriſt: to whome with thée and the holy Ghoſt be all honor &amp; glorie, <hi>Amen.</hi>
+               </p>
+            </div>
+            <div n="before meate" type="prayer">
+               <pb facs="tcp:150549:13"/>
+               <head>✿ Grace before meate.</head>
+               <p>THe Father of mercie, and God of all conſo<g ref="char:EOLhyphen"/>lation, giue vs grace to conſent together in<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>o the knowledge of his truth, that wée may with one mind and one mouth, glorifie God the Father of our Lord Ieſus Chriſt, <hi>Amen.</hi>
+               </p>
+            </div>
+            <div n="after meate" type="prayer">
+               <head>Grace after meate.</head>
+               <p>THanks be vnto thée O Lord God almightie, moſt déere Father of Heauen, for bringing againe from death our Lord Ieſus Chriſt, the great ſheapeheard of thy ſhéepe, through y<hi rend="sup">e</hi> blood of the euerlaſting Teſtament. And wée beſéech thée to make vs parfit to doe his will, woorking in vs that which is pleaſant in his ſight, that wée be not only the ſpeakers of his woord, but the vnfayned followers of the ſame, <hi>Amen.</hi>
+               </p>
+            </div>
+            <div n="before meate" type="prayer">
+               <head>Grace before meate.</head>
+               <p>CHriſt which at his laſt Supper gaue him<g ref="char:EOLhyphen"/>ſelfe vnto vs, promiſing his bodie to be cru<g ref="char:EOLhyphen"/>cified, and his blood to be ſhed for our ſinnes, bleſſe vs and our meate, <hi>Amen.</hi>
+               </p>
+            </div>
+            <div n="after meate" type="prayer">
+               <head>Grace after meate.</head>
+               <p>THanks be vnto thée O Lord God almightie, moſt déere Father of Heauen, which at this time haſt fed vs with meat not only y<hi rend="sup">e</hi> periſheth, but with y<hi rend="sup">e</hi> word which abideth into euerlaſting
+<pb facs="tcp:150549:14"/> life. Grant moſt mercifull Father, wée hauin<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> the knowledge of thy word, may alſo practiſe th<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> ſame in our conuerſation, that wée both intierl<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> louing and vnfainedly beléeuing thy holy woord may after this life, liue with thée for euer, <hi>Ame<g ref="char:cmbAbbrStroke">̄</g>.</hi>
+               </p>
+            </div>
+            <div n="before meate" type="prayer">
+               <head>✿ Grace before meate.</head>
+               <l>REceiue your meat without grudging,</l>
+               <l>Take héed yée neuer abuſe the ſame:</l>
+               <l>Giue thankes to God for euery thing,</l>
+               <l>And alwaies praiſe his holy name:</l>
+               <l>Who doth not ſo, is ſore to blame.</l>
+               <l>No euill example ſée that yée giue,</l>
+               <l>Thus doth gods woord teach vs to liue.</l>
+            </div>
+            <div n="after meate" type="prayer">
+               <head>✿ Grace after meate.</head>
+               <p>
+                  <g ref="char:V">Ʋ</g>
+                  <g ref="char:V">Ʋ</g>Hatſoeuer ye do either in word or déed, do all in the name of our Lord Ieſus Chriſt. giuing thanks vnto God the Father by him.</p>
+               <p>✿ Bleſſing, glorie wiſedome, thanks, honor, power, and might be vnto our God, for euermore, <hi>Amen.</hi>
+               </p>
+            </div>
+            <trailer>
+               <q>
+                  <lg>
+                     <l>This litle Catechiſme learned,</l>
+                     <l>by hart, (for ſo it ought:)</l>
+                     <l>The Primer next co<g ref="char:cmbAbbrStroke">̄</g>manded is</l>
+                     <l>for Children to be taught.</l>
+                  </lg>
+               </q>
+            </trailer>
+         </div>
+      </body>
+      <back>
+         <div type="colophon">
+            <pb facs="tcp:150549:14"/>
+            <figure>
+               <figDesc>blazon or coat of arms</figDesc>
+            </figure>
+            <p>LONDON Printed by Thomas Purfoot, for th'aſſignes of <hi>Richard Day.</hi>
+            </p>
+            <q>Cum priuilegio Regiae Maieſtatis.</q>
+            <p>
+               <hi>Forbidding all other to print this Catechiſme. <hi>1601.</hi>
+               </hi>
+            </p>
+         </div>
+         <div type="illustration">
+            <pb facs="tcp:150549:15"/>
+            <p>
+               <figure>
+                  <figDesc>woodcut of the adoration of the magi</figDesc>
+               </figure>
+            </p>
+            <pb facs="tcp:150549:15"/>
+            <pb facs="tcp:150549:16"/>
+         </div>
+      </back>
+   </text>
+</TEI>
